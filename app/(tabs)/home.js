@@ -6,8 +6,8 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 
 
 import { getIdToken } from 'firebase/auth';
-import { sendTokenToBackend } from '../constants/api';
-import { auth } from '../constants/firebaseConfig';
+import { sendTokenToBackend } from '../../constants/api';
+import { auth } from '../../constants/firebaseConfig';
 import { useRouter } from  'expo-router'
 
 

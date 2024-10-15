@@ -11,7 +11,9 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "app/**/*.jsx", // This will include all JSX files in the app folder
+    "app/**/*.js", // This will include all JSX files in the app folder
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/home.jsx", "app/index.jsx", "app/index.jsx", "app/_layout.jsx"  ]
+, "app/(createpost)/addfound.js","app/register.js", "app/login.js", "app/index.js", "app/_layout.js", "app/(tabs)/search.js", "app/(tabs)/profile.js", "app/(tabs)/home.js", "app/(tabs)/add.js", "app/(tabs)/_layout.js"  ]
 }

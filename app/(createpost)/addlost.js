@@ -1,0 +1,30 @@
+import {ScrollView, StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
+
+
+export default function Addlost() {
+  return (
+    <SafeAreaView>
+    <ScrollView>
+    <View className={'flex-1 justify-center items-center'}>
+      <Text>Add Lost Animal</Text>
+
+      <Text>Upload a photo</Text>
+
+      <Text>Animal Type:</Text>
+  
+      <Text>Animal Color:</Text>
+      <Text>Location getmylocation or type adress</Text>
+      <Text>Contact Number</Text>
+      <Text>Animal Name: input</Text>
+
+      <Text>Additional information: input textbox</Text>
+
+    </View>
+    </ScrollView>
+    </SafeAreaView>
+  )
+}
+
+const styles = StyleSheet.create({})

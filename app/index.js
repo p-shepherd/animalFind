@@ -69,7 +69,7 @@ export default function StartScreen({}) {
       </TouchableOpacity>
 
       <View style={styles.subcontainer}>
-        <TouchableOpacity style={styles.loginButton} onPress={() => router.push('login')} >
+        <TouchableOpacity style={styles.loginButton} onPress={() => router.push('home')} >
           <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.registerButton} onPress={() => router.push('register')} >
